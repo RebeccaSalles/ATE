@@ -1,4 +1,4 @@
-# <img src="ATE logo.png" width="12%" /> : Accuracy-Time-Energy performance benchmarking (ATE)
+# <img src="ATE logo.png" width="12%" /> Accuracy-Time-Energy performance benchmarking (ATE)
 
 **Rebecca Salles, Benoit Lange, Reza Akbarinia, Florent Masseglia, Esther Pacitti**
 
