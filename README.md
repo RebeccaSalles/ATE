@@ -1,2 +1,10 @@
-# ATE
-Accuracy-Time-Energy performance benchmarking
+# <img src="2OD_logo.png" width="12%" /> : Accuracy-Time-Energy performance benchmarking (ATE)
+
+**Rebecca Salles, Benoit Lange, Reza Akbarinia, Florent Masseglia, Esther Pacitti**
+
+- National Institute for Research in Digital Science and Technology (INRIA), Montpellier, France
+- University of Montpellier, Montpellier, France
+
+Anomalous events are commonly observed in real-world temporal data, known as time series. Time series anomaly detection is pervasive for process monitoring in almost every scientific application. The area presents an extensive literature and several state-of-the-art methods. Currently, method selection is mainly driven by detection accuracy and runtime. However, with the rapid evolution of hardware and connected devices, massive amounts of time series data are produced at a high rate. The real-time analysis of such time series brings new demands not only for accurate and scalable solutions, but also energy consumption management. In this scenario, any improvement in energy efficiency can have a considerable impact over time both on environmental footprint and monetary expenses. However, there are currently no published works on energy efficient time series anomaly detection. 
+
+This paper fills this gap addressing for the first time the problem of benchmarking time series anomaly detection methods based on the trade-off between accuracy, runtime, and energy consumption. We introduce a new metric for evaluating relative energy efficiency performance, called saveUp, and provide a novel methodology, inspired by skyline queries, for benchmarking methods based on a more comprehensive set of metrics, including peak power usage and total energy consumption. Experimental results based on large datasets show that our methodology is useful for selecting the methods that provide the best performances with the lowest energy impacts. Moreover, results indicate that speedup and saveUp are not always directly correlated, as believed a priori, and sometimes it is best to ``take it slow'' in favor of green applications.
